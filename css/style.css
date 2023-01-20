@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lato', Verdana;
+    font-size: 100%;
+    background-image: url(../img/BG.jpg);
+    background-size: cover;
+  }
+  .yzki {
+    width: 1500px;
+    height: 100%;
+    margin: auto;
+    background: #fff2d6dc;
+  }
+
+  .yzki2 {
+    width: 1500px;
+    height: 2200px;
+    margin: auto;
+    background: #fff2d6dc;
+  }
+
+  .yzki3 {
+    width: 1500px;
+    height: 900px;
+    margin: auto;
+    background: #fff2d6dc;
+  }
+
+  .wrap
+  {
+    margin: 0 auto;
+    width: 70%; /* отступы относительно окна браузера */
+  }
+  .header{
+    padding: 1.3em 0em; /* поля вокруг текста */
+  }
+ 
+  .logo{
+    float: left; /* обтекание логотипа */
+
+  }
+  .logo a {
+    display: block; /* переопределение в блочный */
+  }
+  .nav {
+    float: right; /* обтекание логотипа */
+    margin-top: 0.82em;
+  }
+  .nav > ul > li {
+    display:inline-block; /* переопределение в строчно-блочный */
+  }
+  .nav > ul > li.active a{
+    background: #d0a5a5;
+    color: #ffffff;
+  }
+  .nav > ul > li > a {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding: 0.5em 1em;
+    color: #444;
+    -webkit-transition: 0.9s; /* плавный переход */
+    -moz-transition: 0.9s;
+    -o-transition: 0.9s;
+    transition: 0.9s;
+  }
+  .nav > ul > li > a:hover {
+    color: #fff;
+    background: #d0a5a5;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
